@@ -1,0 +1,6 @@
+# Binary artifacts are attached to GitHub releases, never committed.
+*.exe
+*.nupkg
+*.zip
+releases.win.json
+SHA256SUMS.txt

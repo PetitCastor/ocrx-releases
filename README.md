@@ -21,10 +21,10 @@ Verify the checksum, choose **More info**, confirm the publisher shows **Unknown
 choose **Run anyway** only if the file came from this repository. Full instructions are at
 [ocrx.org/docs](https://ocrx.org/docs).
 
-Upgrading from a 1.x GameCapture Engine install requires a fresh install. The Velopack package
-identity changed in 2.0.0, so an existing 1.x install follows a different update feed and will never
-see this release or any later one. Run `OcrxEngine-win-Setup.exe`; the old install can be removed
-from Windows' Installed apps.
+Upgrading from any pre-2.0 install requires a fresh install. The Velopack package identity changed
+in 2.0.0, so a pre-2.0 install follows a different update feed and will never see this release or
+any later one. Run `OcrxEngine-win-Setup.exe`; the old install can be removed from Windows'
+Installed apps.
 
 ## Source and licensing
 

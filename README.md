@@ -5,9 +5,8 @@ This public repository is the binary distribution and update feed for the privat
 
 ## Download
 
-The latest Windows 10/11 x64 beta will appear on the
-[Releases page](https://github.com/PetitCastor/ocrx-releases/releases/latest) after the signed-off
-2.0.0 build completes.
+The latest Windows 10/11 x64 beta is on the
+[Releases page](https://github.com/PetitCastor/ocrx-releases/releases/latest).
 
 Each release contains only generated artifacts:
 
@@ -21,6 +20,11 @@ Windows may show a Microsoft Defender SmartScreen warning because the beta is no
 Verify the checksum, choose **More info**, confirm the publisher shows **Unknown publisher**, and
 choose **Run anyway** only if the file came from this repository. Full instructions are at
 [ocrx.org/docs](https://ocrx.org/docs).
+
+Upgrading from a 1.x GameCapture Engine install requires a fresh install. The Velopack package
+identity changed in 2.0.0, so an existing 1.x install follows a different update feed and will never
+see this release or any later one. Run `OcrxEngine-win-Setup.exe`; the old install can be removed
+from Windows' Installed apps.
 
 ## Source and licensing
 

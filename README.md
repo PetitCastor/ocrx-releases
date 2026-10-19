@@ -11,7 +11,9 @@ The latest Windows 10/11 x64 beta is on the
 Each release contains only generated artifacts:
 
 - `OcrxEngine-win-Setup.exe` — unsigned per-user installer.
-- `Ocrx.Engine-vX.Y.Z-win-x64.zip` — self-contained engine executable for automation and replay.
+- `Ocrx.Engine-vX.Y.Z-win-x64.zip` — portable copy of the engine (self-contained executable,
+  `WebView2Loader.dll` and the `ui` folder) for automation, replay and side-by-side use. Keep the
+  extracted files together; the portable copy does not update itself.
 - `releases.win.json` — Velopack update-feed metadata.
 - `OcrxEngine-X.Y.Z-full.nupkg` — Velopack update payload, not an SDK package.
 - `SHA256SUMS.txt` — checksums for every downloadable artifact.
